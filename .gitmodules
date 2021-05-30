@@ -1,0 +1,12 @@
+[submodule "reuters_bank_parser"]
+	path = reuters_bank_parser
+	url = git@github.com:mrworker27/reuters_bank_parser.git
+[submodule "sqlProject"]
+	path = sqlProject
+	url = git@github.com:mrworker27/sqlProject.git
+[submodule "reuters_parser"]
+	path = reuters_parser
+	url = git@github.com:mrworker27/reuters_bank_parser.git
+[submodule "sql"]
+	path = sql
+	url = git@github.com:mrworker27/sqlProject.git
