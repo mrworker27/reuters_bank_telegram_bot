@@ -34,9 +34,15 @@ def getData(country, command):
         if x["value"] is not None:
             res[x["date"]] = x["value"]
     return res
+
 def getGDP(countryName):
     command = "NY.GDP.MKTP.CD"
     return getData(countryName, command)
 
-res = getGDP("China")
-print(res)
+def getPopul(countryName):
+    command = "SP.POP.TOTL"
+    return getData(countryName, command)
+
+def getDebt(countryName):
+    command = "GC.XPN.TOTL.GD.ZS"
+    return getData(countryName, command)
